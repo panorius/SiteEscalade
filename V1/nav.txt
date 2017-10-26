@@ -1,0 +1,9 @@
+Accueil
+Competitions
+	Calendrier(liaison to => informations/grimpeur)
+Informations
+	MapFranceSalle (legende: pastille bleu:block pastille rose: voie)
+	Grimpeur
+Photos
+Contact
+	Mail
