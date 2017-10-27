@@ -5,30 +5,14 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<head>
-		<title>VieTaGrimpe</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-	</head>
+    <?php include "includes/head.php"; ?>
 	<body class="homepage">
 		<div id="page-wrapper">
 
 			<!-- Nav -->
             <?php include "includes/nav.php"; ?>
-            <!-- Nav -->
 			<!-- Banner -->
             <?php include "includes/banner.php"; ?>
-            <!-- Banner -->
-				<div id="banner-wrapper">
-					<section id="banner">
-						<h2>Bienvenue Grimpiens !</h2>
-						<p>Quelque chose quelqe chose</p>
-						<!-- <a href="#" class="button"></a> -->
-					</section>
-				</div>
 
 			<!-- Main -->
 				<div id="main-wrapper">
@@ -229,61 +213,11 @@
 				</div>
 
 			<!-- Footer -->
-				<footer id="footer" class="container">
-					<div class="row 200%">
-						<div class="12u">
-
-							<!-- About -->
-								<section>
-									<h2 class="major"><span>What's this about?</span></h2>
-									<p>
-										This is <strong>TXT</strong>, yet another free responsive site template designed by
-										<a href="http://twitter.com/ajlkn">AJ</a> for <a href="http://html5up.net">HTML5 UP</a>. It's released under the
-										<a href="http://html5up.net/license/">Creative Commons Attribution</a> license so feel free to use it for
-										whatever you're working on (personal or commercial), just be sure to give us credit for the design.
-										That's basically it :)
-									</p>
-								</section>
-
-						</div>
-					</div>
-					<div class="row 200%">
-						<div class="12u">
-
-							<!-- Contact -->
-								<section>
-									<h2 class="major"><span>Get in touch</span></h2>
-									<ul class="contact">
-										<li><a class="icon fa-facebook" href="#"><span class="label">Facebook</span></a></li>
-										<li><a class="icon fa-twitter" href="#"><span class="label">Twitter</span></a></li>
-										<li><a class="icon fa-instagram" href="#"><span class="label">Instagram</span></a></li>
-										<li><a class="icon fa-dribbble" href="#"><span class="label">Dribbble</span></a></li>
-										<li><a class="icon fa-google-plus" href="#"><span class="label">Google+</span></a></li>
-									</ul>
-								</section>
-
-						</div>
-					</div>
-
-					<!-- Copyright -->
-						<div id="copyright">
-							<ul class="menu">
-								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-
-				</footer>
+            <?php include "includes/footer.php"?>
 
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.dropotron.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/skel-viewport.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-
+		<?php include "includes/responsiveScript.php"; ?>
 	</body>
 </html>

@@ -1,8 +1,8 @@
 <nav id="nav">
     <ul>
-        <li class="current"><a href="#">Accueil</a></li>
+        <li class="current"><a href="index.php">Accueil</a></li>
         <li>
-            <a href="#">Competitions</a>
+            <a href="competition.php">Competitions</a>
             <ul>
                 <li><a href="#">Calendrier</a></li>
             </ul>
