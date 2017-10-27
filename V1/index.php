@@ -26,35 +26,9 @@
 				</header>
 
 			<!-- Nav -->
-				<nav id="nav">
-					<ul>
-						<li class="current"><a href="#">Accueil</a></li>
-						<li>
-							<a href="#">Competitions</a>
-							<ul>
-								<li><a href="#">Calendrier</a></li>
-							</ul>
-						</li>
-						<li><a href="#">Divers</a>
-                            <ul>
-                                <li><a href="#">Grimpeurs</a></li>
-                                <li><a href="#">Carte</a></li>
-                            </ul>
-                        </li>
-						<li><a href="#">Photos</a></li>
-						<li><a href="#">Contact</a></li>
-					</ul>
-				</nav>
-
+            <?php include "includes/nav.php"; ?>
 			<!-- Banner -->
-				<div id="banner-wrapper">
-					<section id="banner">
-						<h2>Welcome to TXT by HTML5 UP</h2>
-						<p>A free responsive site template built on HTML5, CSS3, skel, and some other stuff</p>
-						<a href="#" class="button">Alright let's go</a>
-					</section>
-				</div>
-
+            <?php include "includes/banner.php"; ?>
 			<!-- Main -->
 				<div id="main-wrapper">
 					<div id="main" class="container">
