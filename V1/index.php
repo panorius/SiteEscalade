@@ -16,19 +16,21 @@
 	<body class="homepage">
 		<div id="page-wrapper">
 
-			<!-- Header -->
-				<header id="header">
-					<div class="logo container">
-						<div>
-							<h1><a href="index.php" id="logo">vie ta grimpe</a></h1>
-						</div>
-					</div>
-				</header>
-
 			<!-- Nav -->
             <?php include "includes/nav.php"; ?>
 			<!-- Banner -->
+<<<<<<< HEAD
             <?php include "includes/banner.php"; ?>
+=======
+				<div id="banner-wrapper">
+					<section id="banner">
+						<h2>Bienvenue Grimpiens !</h2>
+						<p>Quelque chose quelqe chose</p>
+						<!-- <a href="#" class="button"></a> -->
+					</section>
+				</div>
+
+>>>>>>> e28eb8b4f3150fe64c4c126f2af4ea62d667ff90
 			<!-- Main -->
 				<div id="main-wrapper">
 					<div id="main" class="container">
