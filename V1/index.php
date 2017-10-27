@@ -16,15 +16,6 @@
 	<body class="homepage">
 		<div id="page-wrapper">
 
-			<!-- Header -->
-				<header id="header">
-					<div class="logo container">
-						<div>
-							<h1><a href="index.php" id="logo">vie ta grimpe</a></h1>
-						</div>
-					</div>
-				</header>
-
 			<!-- Nav -->
 				<nav id="nav">
 					<ul>
@@ -49,9 +40,9 @@
 			<!-- Banner -->
 				<div id="banner-wrapper">
 					<section id="banner">
-						<h2>Welcome to TXT by HTML5 UP</h2>
-						<p>A free responsive site template built on HTML5, CSS3, skel, and some other stuff</p>
-						<a href="#" class="button">Alright let's go</a>
+						<h2>Bienvenue Grimpiens !</h2>
+						<p>Quelque chose quelqe chose</p>
+						<!-- <a href="#" class="button"></a> -->
 					</section>
 				</div>
 
