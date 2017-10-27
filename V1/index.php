@@ -18,10 +18,10 @@
 
 			<!-- Nav -->
             <?php include "includes/nav.php"; ?>
+            <!-- Nav -->
 			<!-- Banner -->
-<<<<<<< HEAD
             <?php include "includes/banner.php"; ?>
-=======
+            <!-- Banner -->
 				<div id="banner-wrapper">
 					<section id="banner">
 						<h2>Bienvenue Grimpiens !</h2>
@@ -30,7 +30,6 @@
 					</section>
 				</div>
 
->>>>>>> e28eb8b4f3150fe64c4c126f2af4ea62d667ff90
 			<!-- Main -->
 				<div id="main-wrapper">
 					<div id="main" class="container">
